@@ -15,8 +15,8 @@
 
 
 ##### Recommended
-- SublimeText for editing HTML, CSS, Javascript, JQuery, whatever docs. Free.
-- jsfiddle.net stages HTML, CSS, and Javascript for quick testing. Updates live.
+- SublimeText for editing HTML+CSS, Javascript, JQuery, whatever docs. Free.
+- jsfiddle.net stages HTML+CSS and Javascript for quick testing. Updates live.
 - Bluefish is an open source web development centric IDE. Free.
 - GIMP is a photo editor great for making SVG, PNG, etc. Free and open source.
 
@@ -28,6 +28,5 @@
 are going to pin an index card on the wall, you need posterboard first. To do
 this, all you need to do is define your main div with one of two containers:
 
-`<div class = "container">` will make a fixed width responsive container, and
-	
-`<div class = "container-fluid>` will make a full width responsive container.
+- `<div class = "container">` will make a fixed width responsive container, and
+- `<div class = "container-fluid>` will make a full width responsive container.
