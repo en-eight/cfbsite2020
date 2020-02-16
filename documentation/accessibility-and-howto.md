@@ -30,3 +30,23 @@ this, all you need to do is define your main div with one of two containers:
 
 - `<div class = "container">` will make a fixed width responsive container, and
 - `<div class = "container-fluid>` will make a full width responsive container.
+
+**2.) Bootstrap uses a grid layout for all of its elements.** There are four 
+different sizes that you can use for grid elements. They are as follows:
+
+- `xs` for smartphones
+- `sm` for tablets
+- `md` for small laptops; greater than 900px
+- `lg` for anything greater than 900px
+
+To create this layout, here's what you have to do:
+
+a. define a `<div class="row">`. This makes a single row. 
+b. create your columns, like so: 
+  ``<div class="col-sm-4">.col-sm-4</div>
+  <div class="col-sm-4">.col-sm-4</div>
+  <div class="col-sm-4">.col-sm-4</div>``
+  Note that these columns use the `sm` size, and that the number after `sm` 
+  defines the *space* that the columns take up. 
+
+  **IMPORTANT**: Make sure that your spacing adds up to 12 per row. 
