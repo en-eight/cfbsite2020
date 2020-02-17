@@ -43,11 +43,11 @@ To create this layout, here's what you have to do:
 
 a. define a `<div class="row">`. This makes a single row. 
 b. create your columns, like so: 
-  ``<div class="col-sm-4">.col-sm-4</div>
-  <div class="col-sm-4">.col-sm-4</div>
-  <div class="col-sm-4">.col-sm-4</div>``
-  Note that these columns use the `sm` size, and that the number after `sm` 
-  defines the *space* that the columns take up. 
+
+  `<div class="col-sm-4">.col-sm-4</div>`
+
+  Note that this column uses the `sm` size, and that the number after `sm` 
+  defines the *space* that the column takes up. 
 
   **IMPORTANT**: Make sure that your spacing adds up to 12 per row. 
 
@@ -59,4 +59,9 @@ b. create your columns, like so:
 ----
 
 Since Bootstrap is just CSS methods, you can implement your own methods for use
-in your site 
+in your site. There's only one stipulation- you have to put in your stylesheet
+**AFTER** the Bootstrap stylesheet statement.
+
+With that out of the way, you can now start adding custom styling in your PHP 
+file. A more thoughtful way to add custom styling would be to just edit the 
+Bootstrap theme itself, but that's for a later part in the manual. 
