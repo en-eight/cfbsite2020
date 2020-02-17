@@ -36,7 +36,7 @@ different sizes that you can use for grid elements. They are as follows:
 
 - `xs` for smartphones
 - `sm` for tablets
-- `md` for small laptops; greater than 900px
+- `md` for small laptops; less than or equal to 900px
 - `lg` for anything greater than 900px
 
 To create this layout, here's what you have to do:
@@ -50,3 +50,13 @@ b. create your columns, like so:
   defines the *space* that the columns take up. 
 
   **IMPORTANT**: Make sure that your spacing adds up to 12 per row. 
+
+
+----
+
+##### I - Integrating Custom CSS into Bootstrap
+
+----
+
+Since Bootstrap is just CSS methods, you can implement your own methods for use
+in your site 
