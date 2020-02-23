@@ -54,7 +54,7 @@ b. create your columns, like so:
 
 ----
 
-##### I - Integrating Custom CSS into Bootstrap
+##### a - Integrating Custom CSS into Bootstrap
 
 ----
 
@@ -65,3 +65,32 @@ in your site. There's only one stipulation- you have to put in your stylesheet
 With that out of the way, you can now start adding custom styling in your PHP 
 file. A more thoughtful way to add custom styling would be to just edit the 
 Bootstrap theme itself, but that's for a later part in the manual. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+----
+
+### WORKING WITH BOOTSTRAP
+
+----
+
+**The `navbar` element**
+
+The `navbar` class selector consolidates a bunch of work into multiple classes.
+[Take a look here.](https://www.w3schools.com/bootstrap4/bootstrap_navbar.asp)
