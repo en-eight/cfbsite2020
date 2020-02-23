@@ -18,9 +18,26 @@
 
 <!--MAKING THE MAIN CONTAINER-->
 <div class="container-fluid">
-	<h1> This is a dummy header. </h1>
-	<p> I'm just testing out Bootstrap right now.</p>
-	<h3> Maybe I need to add my own stylesheet for coloring. </h3>
+
+	<!-- CREATING THE NAVBAR -->
+	<div class = "navbar navbar-expand-sm bg-dark">
+		<ul class = "navbar-nav">
+			<li class = "nav-item">
+				<a class = "nav-link" href="home.php"> Home </a>
+			</li>
+			<li class = "nav-item">
+				<a class = "nav-link" href="loans.php"> Loans </a>
+			</li>
+			<li class = "nav-item">
+				<a class = "nav-link" href="newsletter.php"> Coffee Chats </a>
+			</li>
+			<li class = "nav-item">
+				<a class = "nav-link" href = "about.php"> About Us </a>
+			</li>
+		</ul>
+	</div>
+	<!-- END NAVBAR CREATION -->
+
 </div>
 
 </html>
