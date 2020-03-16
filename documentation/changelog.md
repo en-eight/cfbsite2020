@@ -48,3 +48,19 @@ permit some really quick deployment in the near future.
 
 ----
 
+
+##### March 16th, 2020
+
+- Added some directories inside of `src` which were apart of the old `WFS` demo
+that I made to showcase what a new, updated look could be. There is:
+	- `media` which has logos and pictures for the site.
+	- `script` contains any scripts for the website, like Javascript files. 
+	- `style` has any CSS files for the site, like the one I made. 
+In accordance with this, I added a call for the stylesheet in the `index.php`
+file. I am still working on how to fix the compatibility issue with the style
+sheets. Very frustrating. On the bright side however, the site does look much
+cleaner than it did before. 
+
+**To look at a preview of the site, see** `preview.png` **in the home directory.**
+
+----
