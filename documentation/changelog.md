@@ -38,17 +38,6 @@ permit some really quick deployment in the near future.
 
 ----
 
-*to do this week*
-
-- actually come into the office once this month
-
-- hammer out kinks in index.php header
-
-- create stylebook for unified look across the site (this will take a while)
-
-----
-
-
 ##### March 16th, 2020
 
 - Added some directories inside of `src` which were apart of the old `WFS` demo
