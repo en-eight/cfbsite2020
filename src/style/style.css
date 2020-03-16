@@ -1,0 +1,154 @@
+h1, h2, h3, h4, h5, h6, p, legend, ul, li {font-family: Arial, sans-serif;}
+
+p, li{
+font-size: 13pt;
+}
+
+img{
+	border: none;
+}
+
+html{
+	height: 100%;
+}
+
+legend{
+	font-size: 15px;
+}
+
+*{
+	box-sizing: border-box;
+}
+
+.header{
+	padding: 7px;
+	position: static;
+	background: #009933;
+	color: white;
+}
+
+#padtext{
+	padding-left: 70px;
+	font-size: 20px;
+}
+
+input[type=submit]{
+	font-size: 15px;
+	padding: 5px;
+}
+
+#logo{
+	padding: unset;
+	height: 60px;
+	width: 60px;	
+	float: inline-start;
+	overflow: auto;
+}
+
+.footer{
+	padding: 5px;
+	width: 100%;
+	background-color: #f1f1f1;
+	color: white;
+}
+
+/*CREATING MULTI-COLUMN ADAPTIVE LAYOUT */
+.column{
+	padding: 20px;
+	float: left;
+	width: 50%;
+	background-color: #ffffee;
+	min-height: 750px;
+}
+
+.clear{
+	clear: both;
+}
+
+#footer-out{
+	height: 100px;
+	background-color: #009933;
+	border-top: 1px solid #000;
+	width: 100%;
+}
+
+#footer-in{
+	margin: 0 auto;
+	padding: 20px 0px 10px 0px;
+	font-size: 10px;
+	color: #FFFFFF;
+}
+
+#copyright-text{
+	float: left;
+	color: #FFFFFF;
+}
+
+#member-fdic{
+	margin-right: 10px;
+}
+
+#centertext{
+text-align: center;
+}
+
+.row:after{
+	padding: 20px;
+	content: "";
+	display: table;
+	clear: both;
+}
+
+@media screen and (max-width: 800px){
+	.column{
+		width: 100%;
+	}
+}
+
+/*END MUTI COLUMN ADAPTIVE LAYOUT*/
+
+.wrapper{
+	position: relative;
+	padding: 0px;
+	background-image: linear-gradient(to bottom, #009933, #007700);
+	background-color: #222;
+}
+
+.content-container{
+	position: absolute;
+	top: 7px;
+	bottom: 7px;
+	margin-right: auto;
+	margin-left: auto;
+	max-width: 100%;
+	padding-right: 0px;
+	padding-left: 0px;
+	background: #BBBBBB;
+	background-color: #BBBBBB;
+}
+
+.topnav{
+	overflow: hidden;
+	position: absolute;
+	background-color: #009933;
+	z-index: 2;
+	font-size: 15px;
+	top: 25px;
+	right: 30px;
+}
+
+.topnav a{
+	float: right;
+	display: block;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	border-radius: 2px;
+	transition: background-color .2s, color .2s;
+}
+
+.topnav a:hover{
+	background-color: #ddd;
+	color: #000;
+}

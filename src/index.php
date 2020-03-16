@@ -10,7 +10,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<!-- BOOTSTRAP LINK, GOOGLE API LINK, JQUERY/JS LINK-->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="style/style.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 	<!-- end linking. if you want to add more files, declarations go below -->
@@ -19,7 +19,22 @@
 <!--MAKING THE MAIN CONTAINER-->
 <div class="container-fluid">
 
+	<!-- making the demo header???? -->
+	<div class="header">
+		<a href="https://www.com1stbank.com">
+			<img id="logo" src="media/lnl.png" alt="Community 1st Bank">
+		</a>
+		<h3 id="padtext">Community First Bank, N.A.</h3>
+		<div class="topnav">
+			<a href="#">Loans and Lending</a>
+			<a href="#">Coffee Chats</a>
+			<a href="#">About Us</a>
+			<a href="#">Home</a>
+		</div>
+	</div>
+
 	<!-- CREATING THE NAVBAR -->
+	<!--
 	<nav class="navbar navbar-expand-lg navbar-light bg-light">
 		<a class="navbar-brand" href="#">Navbar</a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -50,11 +65,8 @@
 				</li>
 			</ul>
 		</div>
-	</nav>
+	</nav> -->
 	<!-- END NAVBAR CREATION -->
-	
-	
-	
 	
 	
 	<!--begin main content -->
