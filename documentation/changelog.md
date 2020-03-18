@@ -52,14 +52,6 @@ cleaner than it did before.
 
 **To look at a preview of the site, see** `preview.png` **in the home directory.**
 
-Known issues:
-
-~~- Navbar on top does not align with the header, instead pushing down about 50px.~~
-
-	~~- Possible issue with `float`?~~
-	
-	~~- Possible issue with `position`?~~
-
 ----
 
 ##### March 18th, 2020
