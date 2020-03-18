@@ -68,11 +68,12 @@ The display bug was an important fix because this header *should now work* with
 the rest of the site, regardless of what happens. This means that yes, I should
 update the template php file. 
 
+*(quick update - just updated the template PHP file with the new stuff.)*
+
 Known issues:
 - Images do not stack properly.
 	- Check Bootstrap documentation for dynamically resizable img class.
 - Images are not sized properly. 
-	- Attempt aforementioned source.
 
 ----
 
