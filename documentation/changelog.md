@@ -55,8 +55,10 @@ cleaner than it did before.
 Known issues:
 
 ~~- Navbar on top does not align with the header, instead pushing down about 50px.~~
+
 	~~- Possible issue with `float`?~~
-	~~- Possible issue with `position`? ~~
+	
+	~~- Possible issue with `position`?~~
 
 ----
 
