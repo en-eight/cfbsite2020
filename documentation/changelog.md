@@ -42,8 +42,8 @@ permit some really quick deployment in the near future.
 
 - Added some directories inside of `src` which were apart of the old `WFS` demo
 that I made to showcase what a new, updated look could be. There is:
-	- `media` which has logos and pictures for the site.
-	- `script` contains any scripts for the website, like Javascript files. 
+	- `media` which has logos and pictures for the site;
+	- `script` contains any scripts for the website, like Javascript files; 
 	- `style` has any CSS files for the site, like the one I made. 
 In accordance with this, I added a call for the stylesheet in the `index.php`
 file. I am still working on how to fix the compatibility issue with the style
@@ -54,8 +54,31 @@ cleaner than it did before.
 
 Known issues:
 
-- Navbar on top does not align with the header, instead pushing down about 50px.
-	- Possible issue with `float`?
-	- Possible issue with `position`? 
+~~- Navbar on top does not align with the header, instead pushing down about 50px.~~
+	~~- Possible issue with `float`?~~
+	~~- Possible issue with `position`? ~~
 
 ----
+
+##### March 18th, 2020
+
+Fixed the display bug and added some placeholder images for the site; mainly a 
+dollar sign and question mark made in GIMP. Wanting to make the website and its
+images adaptive; right now the images stack on top of each other with the text
+underneath of it (looking like, from top to bottom, IMG, IMG, TXT, TXT). I want
+the page to adapt with one image above a stack of text (IMG, TXT, IMG, TXT). It
+shouldn't be too difficult; maybe a few more days of work and I can really get
+the homepage written up and roughly finished. 
+
+The display bug was an important fix because this header *should now work* with
+the rest of the site, regardless of what happens. This means that yes, I should
+update the template php file. 
+
+Known issues:
+	-Images do not stack properly.
+		-Check Bootstrap documentation for dynamically resizable img class.
+	-Images are not sized properly. 
+		-Attempt aforementioned source.
+
+----
+
