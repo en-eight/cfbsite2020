@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <!-- Community First Bank, N.A. index.php v2.0 by Nate Holcomb -->
@@ -20,7 +19,7 @@
 <!--MAKING THE MAIN CONTAINER-->
 <div class="container-fluid">
 
-	<!-- making the demo header???? -->
+	<!-- making the navbar -->
 	<div class="header">
 		<a href="https://www.com1stbank.com">
 			<img id="logo" src="media/lnl.png" alt="Community 1st Bank">
