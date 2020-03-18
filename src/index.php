@@ -77,6 +77,16 @@
 	</div>
 	
 	<div class = "container">
+
+		<div class = "row">
+			<div class = "col-sm-6">
+				<img class="img-responsive" src="media/moneysign500.png">
+			</div>
+			<div class = "col-sm-6 ">
+				<img class = "img-responsive" src="media/question500.png">
+			</div>
+		</div>
+
 		<div class="row">
 			<div class="col-sm-6 text-center">
 				<h3> Looking to finance a new project? </h3>

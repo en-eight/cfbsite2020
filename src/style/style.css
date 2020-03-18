@@ -45,6 +45,11 @@ input[type=submit]{
 	overflow: auto;
 }
 
+.scale100{
+	height: 100px;
+	width: 100px;
+}
+
 .footer{
 	padding: 5px;
 	width: 100%;
@@ -59,10 +64,6 @@ input[type=submit]{
 	width: 50%;
 	background-color: #ffffee;
 	min-height: 750px;
-}
-
-.clear{
-	clear: both;
 }
 
 #footer-out{
@@ -106,26 +107,6 @@ text-align: center;
 }
 
 /*END MUTI COLUMN ADAPTIVE LAYOUT*/
-
-.wrapper{
-	position: relative;
-	padding: 0px;
-	background-image: linear-gradient(to bottom, #009933, #007700);
-	background-color: #222;
-}
-
-.content-container{
-	position: absolute;
-	top: 7px;
-	bottom: 7px;
-	margin-right: auto;
-	margin-left: auto;
-	max-width: 100%;
-	padding-right: 0px;
-	padding-left: 0px;
-	background: #BBBBBB;
-	background-color: #BBBBBB;
-}
 
 .topnav{
 	overflow: hidden;
