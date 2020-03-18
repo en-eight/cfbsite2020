@@ -25,10 +25,11 @@ legend{
 	position: static;
 	background: #009933;
 	color: white;
+	min-height: 85px;
 }
 
 #padtext{
-	padding-left: 70px;
+	padding-left: 80px;
 	font-size: 20px;
 }
 
@@ -38,7 +39,6 @@ input[type=submit]{
 }
 
 #logo{
-	padding: unset;
 	height: 60px;
 	width: 60px;	
 	float: inline-start;
@@ -133,8 +133,8 @@ text-align: center;
 	background-color: #009933;
 	z-index: 2;
 	font-size: 15px;
-	top: 25px;
-	right: 30px;
+	top: 15px;
+	right: 50px;
 }
 
 .topnav a{
