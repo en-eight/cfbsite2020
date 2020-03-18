@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <!-- Community First Bank, N.A. filename.php v2.0 by Nate Holcomb -->
-<!-- Feb. 15th, 2020 --> 
+<!-- MMMM DD YYYY --> 
 
 <!--Description: filename.php - PageName - Community First Bank, N.A.-->
 <head>
-	<title>PageName - Community First Bank, N.A.</title>
+	<title> PageName - Community First Bank, N.A. </title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<!-- BOOTSTRAP LINK, GOOGLE API LINK, JQUERY/JS LINK-->

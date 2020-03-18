@@ -5,7 +5,7 @@
 
 <!--Description: index.php - Home - Community First Bank, N.A.-->
 <head>
-	<title> Home - Community First Bank, N.A.</title>
+	<title> Home - Community First Bank, N.A. </title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<!-- BOOTSTRAP LINK, GOOGLE API LINK, JQUERY/JS LINK-->
