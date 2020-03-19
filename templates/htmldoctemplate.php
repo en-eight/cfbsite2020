@@ -33,6 +33,19 @@
 		</div>
 	</div>
 
+
+
+
+	<br>
+	<br>
+	<br>
+	
+	<footer class="footer">
+		<div class = "container">
+			<span class = "text-muted"> Copyright 2020 Community First Bank, N.A.</span>
+		</div>
+	</footer>
+
 </div>
 
 </html>

@@ -73,7 +73,32 @@ update the template php file.
 Known issues:
 - Images do not stack properly.
 	- Check Bootstrap documentation for dynamically resizable img class.
-- Images are not sized properly. 
+
+----
+
+##### March 19th, 2020
+
+Fixed the image sizing issue by making the images smaller in GIMP (duh). Image
+stacking issue is still present, although changing the way the images vs the
+text are laid out would likely fix this issue. Since HTML renders things from
+top to bottom, it would make sense to change the order from img, img, txt, txt
+to img, text, img, text. 
+
+Added a footer, very bland placeholder text with no links. Going to add links
+to the privacy policy, online safety, and the site map. The next page I would 
+likely code next would be the Privacy Policy, as it would be pretty easy to 
+copy/paste all of the information on the page into a template HTML document and
+publish changes. 
+
+Index is almost done, likely with a day or two of work and some tweaks, I could
+have it completely finished and ready to go.
+
+Updated template to include header. 
+
+Known issues:
+- Images do not stack properly. 
+- Strange circa 30 pixel white space on either side of the main container.
+
 
 ----
 
