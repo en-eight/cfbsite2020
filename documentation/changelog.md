@@ -102,3 +102,24 @@ Known issues:
 
 ----
 
+##### March 28th, 2020
+
+Fixed the "strange 30 pixel white space" bug - that had to do with how CSS 
+inherits properties from other classes. There are still a few bugs that I need 
+to squash from the old CSS, as well as some cleanup with old CSS styling rules.
+I'm somewhat annoyed at how CSS handles inheritance but nonetheless, here we 
+are. I am going to be looking at the Excel sheets here soon, so work on the 
+site will slow down considerably while I get that done. I got two hours of work
+done today, so that's neat. 
+
+Known issues:
+- Images do not stack properly when window is resized.
+- Header does not stack properly when window is resized. 
+
+Potential fixes:
+- Mobile-adaptive implementation of Bootstrap and CSS homebrew? 
+- Potentially programming separate PHP files to handle mobile landing? 
+- Start from scratch and use better rules
+
+----
+
