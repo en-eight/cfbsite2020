@@ -17,15 +17,16 @@
 </head>
 
 <!--MAKING THE MAIN CONTAINER-->
-<div class="container-fluid">
+<div class="container-fluid no-pad">
 
 	<!-- making the navbar -->
 	<div class="header">
 		<a href="https://www.com1stbank.com">
 			<img id="logo" src="media/lnl.png" alt="Community 1st Bank">
 		</a>
-		<h3 id="padtext">Community First Bank, N.A.</h3>
+		<h3 id="padtext"><b>Community First Bank, N.A.</b></h3>
 		<div class="topnav">
+			<a href="#">Financial Safety</a>
 			<a href="#">Loans and Lending</a>
 			<a href="#">Coffee Chats</a>
 			<a href="#">About Us</a>
@@ -49,7 +50,7 @@
 		<br>
 		<div class = "row">
 			<div class = "col-sm-6 text-center">
-				<img src="media/moneysign250.png" title="Finance" alt="dollar sign">
+				<img src="media/moneysign250.png" title="Finance!" alt="dollar sign">
 			</div>
 			<div class = "col-sm-6 text-center">
 				<img src="media/question250.png" title="Unsure?" alt="question mark">
@@ -74,16 +75,41 @@
 				<p> Awesome, made in Bootstrap, and incredibly readable. </p>
 			</div>
 		</div>
+		
+		<div class = "text-center">
+			<br>
+			<h1> Not seeing what you're looking for? </h1>
+			<br>
+		</div>		
+		
+		<div class = "row">
+			<div class="col-sm-4 text-center">
+				<h3> Check out our coffee chats. </h3>
+				<p> Our coffee chats are a great way to stay informed about everything going on at Community First. </p>
+			</div>
+			<div class="col-sm-4 text-center">
+				<h3> View our Privacy Policy. </h3>
+				<p> Privacy is important to you and we respect that. CFB has laid out exactly how we use your information here. </p>
+			</div>
+			<div class="col-sm-4 text-center">
+				<h3> Visit our site map. </h3>
+				<p> Take a look at all of our webpages so you can find what you need. </p>
+			</div>
+		</div>
+		
+		
 	</div>
 	
 	
+	
 	<br>
 	<br>
 	<br>
 	
+	
 	<footer class="footer">
 		<div class = "container">
-			<span class = "text-muted"> Copyright 2020 Community First Bank, N.A.</span>
+			<span class = "text-muted"> Copyright 2020 Community First Bank, N.A. All rights reserved.</span>
 		</div>
 	</footer>
 	
