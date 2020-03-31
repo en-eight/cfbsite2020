@@ -76,6 +76,8 @@ Cons:
 
 There isn't much else to say about it- it's a well designed website.
 
+
+
 Next, HSLC Kenton, one of our competitors. 
 
 2.) https://www.hslc-kenton.com/ - this is a pretty good site, here's why:
@@ -96,4 +98,35 @@ Cons:
 - VERY noticable color clashing on the Drive in Style panel. Hard to read.
 
 Overall, not bad. Definitely some changes I'd make but it's good as is. 
+
+I could go on and start comparing more sites, but I think this is clear enough.
+Essentially the main goals for the new site are as follows:
+
+1. Make user interaction a priority. We are trying to sell an experience.
+2. A fresh clean look would be nice. Clean colors, nice fonts, and simple UI.
+3. Synchronized info between the building and the website. More on this later.
+4. Seriously, KISS. Keep It Simple, Stupid. 
+
+No, that doesn't mean that you're stupid! It's actually a design principle in 
+software development where programming should be as simple as possible. This 
+maximizes efficiency and minimizes effort on the end of the developer. Likewise
+this will maximize functionality for the end user but maintain simplicity to 
+create and make changes to the site for the back end, being us. 
+
+At the core of these ideas is one centric principle- ***simplicity.*** It's 
+a good idea to keep everything as easygoing as physically possible so that we 
+can make changes easily. 
+
+----
+
+#### c.) After deployment, what can we do to improve the website?
+
+To be honest, this is the point where we need to make a distinction between the
+work and ourselves. If the users don't respond well to the site, that's okay. 
+Opinions don't define the work that went into this and we should be proud of 
+that. That being said, the main thing we can do is receive user input. Opinions
+are the fuel to the fire of change. If we can make it such that the users can 
+state their opinions about the site on say a public forum like Facebook, it 
+gives them a chance to be heard while also giving us invaluable input. 
+
 
