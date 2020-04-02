@@ -6,7 +6,7 @@
 
 ----
 
-##### March 2020
+#### March 2020
 
 *03/01/2020* - I added the changelog.md file. It will be really useful to keep 
 track of what work was done and when. To be honest, school has been difficult
@@ -120,6 +120,51 @@ Potential fixes:
 - Mobile-adaptive implementation of Bootstrap and CSS homebrew? 
 - Potentially programming separate PHP files to handle mobile landing? 
 - Start from scratch and use better rules
+
+----
+
+#### April 2020
+
+*4/01/2020* - I added `href` links that now link internally. Yes, finally! The 
+site should now be functional entirely on a local machine. I can actually test 
+all of our interactions on my computer when I begin to add scripting to the php
+files. This is a pretty minor change but with major implications. Hooray!
+
+I added some placeholder images in the form of the logo for the bottom three 
+info tabs. These images link to separate php files which I will add later. 
+
+**NOTE: Some of these links are *dead* links. This means that when you click on
+them, you *WILL* get an error because the php files do not exist yet.**
+
+I plan to work on these pages next: 
+- `newsletter.php`
+- `about.php`
+
+These pages have simple implementation. Admittedly, the newsletter would be a 
+creative pursuit on my part ;) but that being said, the about page is just a
+simple copy paste with some image replacement. It shouldn't be too hard. That
+being said, the last page is going to be the site map and that's really because
+I don't want to keep adding onto it if I need to make more pages. The website's
+hierarchy and design is something I'll need to really work on. The main goal is
+that every page should be accessible from *every php file* that exists for the
+site, even if it's something super small at the bottom of the page like a link
+to a privacy policy or something. 
+
+Another thing that I need to do is add the Member FDIC and the other legal info
+at the footer. One thing that I liked from the old site was how simple their 
+footer was- I believe it was just a few floats within a container. Elegant but
+simple, just the way it should be. 
+
+Of course, more of this work will also be on me to clean up each php file and 
+make sure that the code is readable to anyone who chooses to edit it. I will 
+ensure that a guide is written to edit any code if the need arises. 
+
+`index.php` is almost done. I want to add more information but I think that its
+purpose is served. It's a good landing page, it's precise, and it's clear. It 
+definitely looks visually appealing as well. 
+
+The same issues are present from before. I need to work on getting a mobile
+compatible approach, but for now I think that this will do. 
 
 ----
 
