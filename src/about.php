@@ -57,11 +57,13 @@
 	</div>
 		
 	<div class = "row">
-		<div class = "col-sm-6 text-center">
+		<div class = "col-sm-4 text-center">
 			<h3> Hours of Operation </h3>
 			<p> Placeholder text - will update with table soon </p>
+			<p><b> Online Banking and Bill Pay available 24/7. </b></p>
+			<p><b> ATMS are open 24/7 at all branches. </b></p>
 		</div>
-		<div class = "col-sm-6 text-center">
+		<div class = "col-sm-8 text-center">
 			<!-- Update to include addresses. Will need table layout. --> 
 			<h3> Locations </h3>
 			<p> Forest, Ohio - 419.273.2595</p>
@@ -69,6 +71,11 @@
 			<p> Upper Sandusky, Ohio - 419.209.0308 </p>
 		</div>
 	</div>
+	
+	<br>
+	
+	
+		
 	
 	<br>
 	<br>
