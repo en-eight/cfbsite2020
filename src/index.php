@@ -21,16 +21,16 @@
 
 	<!-- making the navbar -->
 	<div class="header">
-		<a href="https://www.com1stbank.com">
+		<a href="index.php">
 			<img id="logo" src="media/lnl.png" alt="Community 1st Bank">
 		</a>
 		<h3 id="padtext"><b>Community First Bank, N.A.</b></h3>
 		<div class="topnav">
-			<a href="#">Financial Safety</a>
-			<a href="#">Loans and Lending</a>
-			<a href="#">Coffee Chats</a>
-			<a href="#">About Us</a>
-			<a href="#">Home</a>
+			<a href="safety.php">Financial Safety</a>
+			<a href="loans.php">Loans and Lending</a>
+			<a href="newsletter.php">Coffee Chats</a>
+			<a href="about.php">About Us</a>
+			<a href="index.php">Home</a>
 		</div>
 	</div>
 
@@ -80,7 +80,27 @@
 			<br>
 			<h1> Not seeing what you're looking for? </h1>
 			<br>
+			<br>
 		</div>		
+		
+		<div class = "row">
+			<div class = "col-sm-4 text-center">
+				<a href = "newsletter.php">
+					<img class = "fiximg250" src="media/lnl.png" title="temp" alt="tempimg">
+				</a>
+			</div>
+			<div class = "col-sm-4 text-center">
+				<a href = "privacy.php">
+					<img class = "fiximg250" src="media/lnl.png" title="temp" alt="tempimg">
+				</a>
+			</div>
+			<div class = "col-sm-4 text-center">
+				<a href = "map.php">
+					<img class = "fiximg250" src="media/lnl.png" title="temp" alt="tempimg">
+				</a>
+			</div>
+		</div>
+		
 		
 		<div class = "row">
 			<div class="col-sm-4 text-center">

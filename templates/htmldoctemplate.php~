@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
-<!-- Community First Bank, N.A. title.php v2.0 by Nate Holcomb -->
-<!-- Feb. 15th, 2020 --> 
+<!-- Community First Bank, N.A. filename.php v2.0 by Nate Holcomb -->
+<!-- MMMM DD YYYY --> 
 
-<!--Description: title.php - Title - Community First Bank, N.A.-->
+<!--Description: filename.php - PageName - Community First Bank, N.A.-->
 <head>
-	<title> Home - Community First Bank, N.A. </title>
+	<title> PageName - Community First Bank, N.A. </title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<!-- BOOTSTRAP LINK, GOOGLE API LINK, JQUERY/JS LINK-->
@@ -17,24 +17,21 @@
 </head>
 
 <!--MAKING THE MAIN CONTAINER-->
-<div class="container-fluid no-pad">
+<div class="container-fluid">
 
 	<!-- making the navbar -->
 	<div class="header">
-		<a href="index.php">
+		<a href="https://www.com1stbank.com">
 			<img id="logo" src="media/lnl.png" alt="Community 1st Bank">
 		</a>
-		<h3 id="padtext"><b>Community First Bank, N.A.</b></h3>
+		<h3 id="padtext">Community First Bank, N.A.</h3>
 		<div class="topnav">
-			<a href="safety.php">Financial Safety</a>
-			<a href="loans.php">Loans and Lending</a>
-			<a href="newsletter.php">Coffee Chats</a>
-			<a href="about.php">About Us</a>
-			<a href="index.php">Home</a>
+			<a href="#">Loans and Lending</a>
+			<a href="#">Coffee Chats</a>
+			<a href="#">About Us</a>
+			<a href="#">Home</a>
 		</div>
 	</div>
-
-	<!--begin main content -->
 
 
 

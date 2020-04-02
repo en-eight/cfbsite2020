@@ -140,3 +140,8 @@ input[type=submit]{
 #centertext{
 text-align: center;
 }
+
+.fiximg250{
+	height: 250px;
+	width: 250px;
+}
