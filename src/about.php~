@@ -37,44 +37,43 @@
 	<!--begin main content -->
 	<div class = "jumbotron text-center">
 		<h1> About Us </h1>
+		<br>
 		<p> From our roots to our leaves, all the way back to you. </p>
+		<br>
 	</div>
-
 
 	<!-- Here's the main content of the webpage. --> 
 	<!-- It's two containers - think of one as the main envelope for the BOM...-->
 	<!-- ...and one that has all of the information in it.-->
 	<div class = "container">
-	
-	
+		
 		<div class = "text-center">
-		
+
 			<h1> We care about the community - it's in the name. </h1>
-			<h4>(don't wear it out.)</h4>
-			
 			<br>
-		
+
 			<p> Community First Bank, N.A. was founded in 1904 as the First National Bank of Forest, Ohio. 
 			In 1981, we opened a branch opened in Kenton, Ohio. With over 75 years of experience at that point, who wouldn't want to branch out? </p>
-			
-			<p> Since 1981, we changed our name to what it is today. For what reason? Simple! Community First is a local bank for all our communities.  
+			<p>That same year, we changed our name to what it is today. For what reason? Simple! Community First is a local bank for all our communities.  
 			In 2002, we opened another office in the heart of downtown Upper Sandusky, Ohio. </p>
-			
-			<p> Community First Bank, N.A. is a locally owned, controlled, family oriented bank, dedicated to
+
+			<p> We are a locally owned, controlled, family oriented bank, dedicated to
 			providing a safe, secure, competitive source of financial services to the residents of our community,
 			small businesses, and family farms in our market area. It is further our mission to provide our
 			shareholders with an adequate return on their investment in terms of both short-term yield and long-term
 			growth while preserving a well-capitalized corporation. It is our mission to offer our employees quality
 			employment where they are treated with respect and evaluated on their contributions to the goals and
 			objectives of Community First Bank, N.A. </p>
-			
 		</div>
-	
+		
+		<!-- Now we begin the rows and columns layout of the page.-->
+		
 		<br>		
 		
+		<!-- Weird display issue here. I want this to look better, maybe center it.-->
 		<div class = "row">
 			<div class = "col-sm-8">
-				<!-- Update to include addresses. Will need table layout. --> 
+				<!-- Update - needs table layout. --> 
 				<h3> Locations </h3>
 				<p><b> Forest, Ohio</b></p>
 				<p>118 E Lima St. Forest, OH 45843</p> 
