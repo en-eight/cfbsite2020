@@ -1,0 +1,172 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>Online Banking Login</title>
+<meta name="viewport" content="width=480; initial-scale=1; maximum-scale=1.0; user-scalable=0;">
+<style>
+* {font: normal 10pt Arial, Helvetica, sans-serif;}
+
+body {
+	margin: 0;
+	padding: 0;
+	background-color: transparent;
+	}
+
+td, p, li {font-size: 1em;}	
+
+a {
+	color: #2a4f5e;
+	}
+
+form {
+	margin: 0;
+	padding: 0;
+	}
+
+.hr {
+	background: #e5dfb7;
+	border: 0;
+	height: 1px;
+	margin: .5em 0 .5em 0;
+	}
+label {
+	display: block;
+	font-size: 0.8em;
+	color: #4a4d54;
+	position: absolute;
+	padding: 0 .5em 0 .5em;
+	line-height: 2.6em;
+	cursor: text;
+	}
+
+input[type=text], input[type=password] {
+	float: left;
+	font-size: 1em;
+	display: block;
+	margin-right: 5px;
+	margin-bottom: 1em;
+	height: 2.2em;
+	width: 150px;
+	color: #c7c7c7;
+	font-size: 11px;
+	padding: 0 .5em 0 .5em;
+	font-variant: normal;
+	color: #222; 
+	border: 1px solid #a7a7a7;  
+	background: #FFFFFF; 
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	line-height: 2.2em;
+	}
+
+.field-container {
+	display: block;
+	float: left;
+	}
+
+.button {
+	float: left;
+	display: block;
+	width: 70px;
+	height: 1.8em;
+	font-size: .8em;
+	padding: 0.2em;
+	margin-right: 2em;
+	margin-bottom: 1em;
+	cursor: pointer;
+	font-size: 1.1em;
+	text-align: center;
+	vertical-align: middle;
+	background: #f5b023;
+	color: #FFF;
+	border: 0px solid #000;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	}
+
+.links {
+	color: #999;
+	line-height: 1.1em;
+	}
+
+.links a {
+	text-decoration: none;
+	padding: 0 1em 0 0;
+	font-size: 7pt;
+	color: #FFF;
+	white-space: nowrap;
+	}
+
+.links a:hover {
+	text-decoration: underline;
+	}
+
+</style>
+<style media="handheld, only screen and (max-device-width:480px)">
+body {font-size: 14pt;}
+label {
+	font-size: 1em;
+	color: #666;
+	line-height: 30px;
+	}
+input[type=text], input[type=password] {
+	float: left;
+	display: block;
+	height: 30px;
+	width: 170px;
+	}
+.button {
+	float: left;
+	display: block;
+	margin-right: 15px;	
+ 	height: 30px;
+	width: 80px;
+	color: #000;
+	}
+.links {
+	display: none;
+	}
+</style>
+<script>
+function toggle_label(obj, ev) {
+	switch(ev) {
+		case "focus":
+			document.getElementById(obj.id + "-label").style.display = "none";
+			break;
+		case "blur":
+			if (obj.value=="") document.getElementById(obj.id + "-label").style.display = "block";
+			break;
+		}
+	}
+</script>
+</head>
+
+<body>
+<div id="login">
+  	<div id="login-inner">	
+  		<form action="https://cfbfoh.secure.fundsxpress.com/start/CFBFOH" method="POST" autocomplete="OFF" target="_top">
+<input type="hidden" name="sssid" value="login#2#3878656ed441027b#b0a4244277ebbbcb056ac5d8f2b3feac6ee165247d90c895b65ee9b9f39dacf5771db44f66bc748d26b2d4bb64c3540e967ce7b67f672cf8">
+<input type="hidden" name="iid" value="CFBFOH">
+
+        	<div class="field-container">
+                <label for="aid" id="aid-label">Access ID</label>
+                <input name="aid" id="aid" type="text" size="8" onfocus="toggle_label(this, 'focus');" onblur="toggle_label(this,'blur');">
+            </div>
+            
+            <div class="field-container">
+                <label for="passcode" id="passcode-label">Passcode</label>
+                <input name="passcode" id="passcode" type="password" size="8" onfocus="toggle_label(this, 'focus');" onblur="toggle_label(this,'blur');">
+            </div>
+            
+          	<input type="submit" name="Submit" value="Log In" class="button">
+  		</form>	
+  	</div>
+  	<div class="links">
+  		<a href="https://gateway.fundsxpress.com/CFBFOH/disclosures.htm" target="_top">Enroll</a>
+		<a href="https://gateway.fundsxpress.com/CFBFOH/disclosures_commercial.htm" target="_top">Business Enroll</a><br>
+        <a href="https://gateway.fundsxpress.com/CFBFOH/demo.htm" target="_blank">View Demo</a> 
+        <a href="https://secure.fundsxpress.com/resetpasscode/app/#/home/authentication?appId=FXWEB&amp;iid=CFBFOH" target="_top">Forgot passcode?</a>
+  	</div>
+</div>
+
+</body></html>
