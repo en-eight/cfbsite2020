@@ -18,7 +18,6 @@
 
 <!--MAKING THE MAIN CONTAINER-->
 <div class="container-fluid no-pad">
-
 	<!-- making the navbar -->
 	<div class="header">
 		<a href="index.php">
@@ -33,7 +32,7 @@
 			<a href="index.php">Home</a>
 		</div>
 	</div>
-
+	
 	<!--begin main content -->
 	<div class = "jumbotron text-center">
 		<h1> About Us </h1>
@@ -45,7 +44,6 @@
 	<!-- It's two containers - think of one as the main envelope for the BOM...-->
 	<!-- ...and one that has all of the information in it.-->
 	<div class = "container">
-		
 		<div class = "text-center">
 
 			<h1> We care about the community - it's in the name. </h1>
@@ -70,7 +68,7 @@
 		<br>		
 		
 		<!-- Weird display issue here. I want this to look better, maybe center it.-->
-		<div class = "row">
+		<div class = "row center">
 			<div class = "col-sm-8">
 				<!-- Update - needs table layout. --> 
 				<h3> Locations </h3>

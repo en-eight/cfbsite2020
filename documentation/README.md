@@ -1,3 +1,16 @@
+## As of September 15th, 2020 this project is deprecated.
+
+The code will still remain up for people to access and to reference.
+
+I will scrape what I can from my other machines, but unfortunately
+there will be no other code updates to this repository. Process
+started: September 15th, 2020. 
+
+Process completed: Sept. 17th, 2020.
+
+Thank you.
+
+
 ## This is the README for `cfbsite2020` repository. 
 
 ----
@@ -19,6 +32,14 @@ c.) After deployment, what can we do to improve the website?
 
 **Summary**: Make CFB's site adapt to our users. Our audience should start to 
 adapt to a younger crowd. User interaction is really important.
+
+Usability is extremely important when talking about a website. It's stunning,
+really, how one bad thing can soil an entire experience. Things like 
+bad user interface integration (think, the last time that you tried to use
+a poorly made mobile site on your phone), invalid calls or deprecated pages
+can sour the experience relatively quickly. I believe that it's important
+to make the experience unique to each user, and that the site should respond
+dynmically to that.
 
 I think the main strategy with the website is to deliver a dynamic experience
 for the end user. In layman's terms, what this means is to make the website 
@@ -129,4 +150,13 @@ are the fuel to the fire of change. If we can make it such that the users can
 state their opinions about the site on say a public forum like Facebook, it 
 gives them a chance to be heard while also giving us invaluable input. 
 
+
+----
+
+Any potential features, things like mobile apps, new APIs, new implementations,
+etc. should be relatively easy to implement. I feel like the most important thing to do
+is to ensure the long term stability of this website and its subdocuments. A universal
+switch to Bootstrap should make it easier to make the website more complete faster,
+and along with new assets being continually made (by yours truly), I think that 
+this new website definitely will please the end user.
 

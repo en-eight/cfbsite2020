@@ -60,11 +60,10 @@
 		<div class="row">
 			<div class="col-sm-6 text-center">
 				<h3> Looking to finance a new project? </h3>
-				<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-				Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-				Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-				Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-				<p> Awesome, made in Bootstrap, and incredibly readable. </p>
+				<p> At Community First Bank, we understand that sometimes,
+				small business doesn't mean a small change. We're committed
+				to helping you achieve your dream by offering a wide variety
+				of financial loan plans! Apply today!</p>
 			</div>
 			<div class="col-sm-6 text-center">
 				<h3> Or maybe something else? </h3>
@@ -86,7 +85,8 @@
 		<div class = "row">
 			<div class = "col-sm-4 text-center">
 				<a href = "newsletter.php">
-					<img class = "fiximg250" src="media/lnl.png" title="temp" alt="tempimg">
+					<!-- JUST A PLACEHOLDER - gotta make my own! -->
+					<img class = "fiximg250" src="media/smilemug.png" title="temp" alt="tempimg">
 				</a>
 			</div>
 			<div class = "col-sm-4 text-center">
@@ -95,7 +95,7 @@
 				</a>
 			</div>
 			<div class = "col-sm-4 text-center">
-				<a href = "map.php">
+				<a href = "sitemap.php"> <!--this was causing an error-->
 					<img class = "fiximg250" src="media/lnl.png" title="temp" alt="tempimg">
 				</a>
 			</div>

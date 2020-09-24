@@ -168,3 +168,33 @@ compatible approach, but for now I think that this will do.
 
 ----
 
+#### Sept 2020
+
+It's been a while, and work has been slow. Today is 9/24/2020, so I will lay out
+the majority of the work I've done here in this document. As of now,
+the project is defunct. There will be no more work done on it. Here
+is what I've done since 9/9/2020:
+
+- added a picture for the coffee mug, finally. I gotta draw my own.
+- Researched jquery and javascript and determined that the reason
+  they weren't working before was because I don't think I included
+  the jquery html files... maybe? I need to do more conclusive research
+  but it's lunchtime and I am super hungry.
+- I added the sitemap page. I figure that I can update what's going on with
+  each consecutive page I add.
+- Did some other graphic design stuff that got lost. There must have been an
+  issue while saving (this has happened before with music projects) and I think
+  it has to do with my hard drive's health... nonetheless, that's a shame.
+- researched Django and other different ways to implement a webpage online.
+- I believe I updated the index with some comments.
+- I updated the index with a little paragraph about how CFB takes care of its customers.
+
+I know now that the website was still ceased in development, so I recorded
+the work I've done in this document as my final commit to the repo. I feel
+sad and frustrated that all of this work... it was for naught. However
+I will hold my head up high and continue pushing onward, looking for 
+the next opportunity that arises for me to practice my web dev skills.
+
+This was fun.
+
+----
